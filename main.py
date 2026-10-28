@@ -19,7 +19,6 @@ planets = [
     }
 ]
 
-# Шаг 3: Класс обработчик запросов
 class PlanetHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         if self.path == "/planets":
